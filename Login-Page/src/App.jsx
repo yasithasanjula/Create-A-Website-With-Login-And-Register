@@ -1,16 +1,19 @@
-import react from 'react'
 
-import bg from './assets/bg.jpg';
+import react from 'react'
+import Login from './Login.jsx';
 
 import './App.css'
+import { Routes } from 'react-router-dom';
 
 function App() {
  
 
   return (
     <>
-    <div className='text-white h-[100vh] flex justify-center items-center bg-cover' style={{'background' : 'url../src/assets/bg.jpg'}}>
-
+    <div id='ys' className='text-white h-[100vh] flex justify-center items-center bg-cover' >
+    
+      <Login />
+    
     </div>
       
         
